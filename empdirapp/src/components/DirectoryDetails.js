@@ -6,17 +6,21 @@ import React from "react";
 
 function DirectoryDetails(props) {
   return (
-    <tbody>
-      {props.results.map(result => {
-        return (<tr>
-          <td>
-            <img src={result.picture.thumbnail} alt={result.name}></img>
-          </td>
-          <td>{result.name.first}</td>
-          <td>{result.name.last}</td>
-          <td>{result.email}</td>
-          <td>{result.phone}</td>
-        </tr>);
+    <tbody className="tablebody">
+      {props.results.map((result) => {
+        return (
+          <tr>
+            <td>
+              <img src={result.picture.medium} alt={result.name}></img>
+            </td>
+            <td>{result.name.first}</td>
+            <td>{result.name.last}</td>
+            <td>{result.login.username}</td>
+            <td>{result.email}</td>
+            <td>{result.phone}</td>
+            <td>{result.location.city}</td>
+          </tr>
+        );
       })}
     </tbody>
   );

@@ -1,0 +1,25 @@
+  hr.new5 {
+      border: 8px solid #3C6E71;
+      margin: 0rem;
+  }
+
+
+  footer {
+      position: fixed;
+      left: 0px;
+      bottom: 0px;
+      height: 100px;
+      width: 100%;
+      border-top: 18px solid #3C6E71;
+  }
+
+  jumbotron {
+      height: 300px;
+  }
+
+  .smed i {
+      color: #ffffff;
+      font-size: 50px;
+      margin-bottom: 30px;
+      margin-right: 10px;
+  }
