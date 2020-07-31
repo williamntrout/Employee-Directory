@@ -1,25 +1,84 @@
-  hr.new5 {
-      border: 8px solid #3C6E71;
-      margin: 0rem;
-  }
+hr.new5 {
+  border: 8px solid #3c6e71;
+  margin: 0rem;
+}
 
+footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 100px;
+  width: 100%;
+  border-top: 18px solid #3c6e71;
+}
 
-  footer {
-      position: fixed;
-      left: 0px;
-      bottom: 0px;
-      height: 100px;
-      width: 100%;
-      border-top: 18px solid #3C6E71;
-  }
+.jumbotron {
+  height: calc(100vh - 186px);
+}
 
-  jumbotron {
-      height: 300px;
-  }
+.smed i {
+  color: #ffffff;
+  font-size: 50px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
 
-  .smed i {
-      color: #ffffff;
-      font-size: 50px;
-      margin-bottom: 30px;
-      margin-right: 10px;
-  }
+.tablebody {
+  height: calc(100vh - 325px);
+  overflow-y: scroll;
+}
+
+.table {
+  height: calc(100vh - 186px);
+  overflow: hidden;
+}
+
+.th-one {
+  width: 100px;
+}
+
+.th-first {
+  width: 100px;
+}
+
+.th-last {
+  width: 120px;
+}
+
+.th-username {
+  width: 170px;
+}
+
+.th-email {
+  width: 275px;
+}
+
+.th-phone {
+  width: 150px;
+}
+
+.th-city {
+  width: 120px;
+}
+
+.td-image {
+  width: 100px;
+}
+.td-first {
+  width: 100px;
+}
+.td-last {
+  width: 120px;
+}
+.td-username {
+  width: 170px;
+}
+.td-email {
+  width: 275px;
+}
+.td-phone {
+  width: 150px;
+}
+.td-city {
+  width: 120px;
+}
