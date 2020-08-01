@@ -33,12 +33,13 @@ const DirectoryHead = (props) => {
           Phone
         </th>
         <th className="th-city" scope="col">
-          City
           <a
             href="#name"
             className="btn btn-link"
             onClick={() => props.sortCity()}
-          ></a>
+          >
+            City
+          </a>
         </th>
       </tr>
     </thead>
