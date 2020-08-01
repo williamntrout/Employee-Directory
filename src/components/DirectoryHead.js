@@ -23,10 +23,23 @@ const DirectoryHead = (props) => {
             Last
           </a>
         </th>
-        <th className="th-username"scope="col">Username</th>
-        <th className="th-email"scope="col">Email</th>
-        <th className="th-phone"scope="col">Phone</th>
-        <th className="th-city"scope="col">City</th>
+        <th className="th-username" scope="col">
+          Username
+        </th>
+        <th className="th-email" scope="col">
+          Email
+        </th>
+        <th className="th-phone" scope="col">
+          Phone
+        </th>
+        <th className="th-city" scope="col">
+          City
+          <a
+            href="#name"
+            className="btn btn-link"
+            onClick={() => props.sortCity()}
+          ></a>
+        </th>
       </tr>
     </thead>
   );

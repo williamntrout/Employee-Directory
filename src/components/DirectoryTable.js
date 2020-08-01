@@ -84,6 +84,24 @@ class DirectoryTable extends Component {
     });
   };
 
+  // sort by city
+  sortCity = () => {
+    let City = this.state.result.sort(compare);
+
+    function compare(a, b) {
+      const cityA = a.location.city.toUpperCase();
+      const cityB = b.location.city.toUpperCase();
+      let comparison = 0;
+      if (cityA > cityB) {
+        comparison = 1;
+      } else if (cityA < cityB) {
+        comparison = -1;
+      }
+      return comparison;
+    }
+    this.setState({ result: City });
+  };
+
   // function to render table card
 
   render() {
